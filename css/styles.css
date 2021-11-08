@@ -1,0 +1,116 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --therd-color: #FFFFFF;
+    --Hover-color: #2196F3;
+
+    
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.list {
+    list-style: none;
+}
+
+.link { 
+    text-decoration: none;
+}
+/*---------------header------------------------------*/
+
+.header-item {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em
+color: var(--main-color)
+
+}
+.header-item:hover {
+    color: var(--Hover-color);
+}
+/*---------------hero------------------------------*/
+
+.hero-title {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--therd-color)
+}
+
+.hero-button {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--therd-color);
+} 
+
+
+.hero-text {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-color)
+
+}
+
+/*------about-------*/
+
+.about-title {
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-color)
+}
+
+
+/*------team-------*/
+
+
+.team-title {
+    font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-color);
+}
+
+.team-name {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-color)
+}
+
+.team-pos{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--second-color)
+}
+
+
+/*-------footer-------*/
